@@ -28,6 +28,18 @@
         <input type="text" id="contact" name="contact" placeholder="Your email address">
           <input type="submit" value="Submit">
     </form>
+    <h3>Receive Red Panda Updates</h3>
+<form action="/subscribe" method="post">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="frequency">Subscription Frequency:</label>
+    <select id="frequency" name="frequency" required>
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+        <option value="annually">Annually</option>
+    </select><br></br>
+    <input type="submit" value="Subscribe">
+</form>
     <footer>
       <p>&copy; 2024 Red Panda Info</p>
 </footer>
