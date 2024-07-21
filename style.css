@@ -15,3 +15,9 @@ nav {
     justify-content: center;
     padding: 10px;
   }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
